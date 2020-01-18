@@ -1,4 +1,5 @@
 # GET SMS 
+[![Downloads](https://pepy.tech/badge/getsms)](https://pepy.tech/project/getsms)
 ```
 pip install getsms
 pip install requests
