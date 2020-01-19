@@ -1,5 +1,6 @@
 # GET SMS 
 [![Downloads](https://pepy.tech/badge/getsms)](https://pepy.tech/project/getsms)
+[![Downloads](https://black.readthedocs.io/en/stable/_static/license.svg)](https://github.com/begyy/getsms/blob/master/LICENSE)
 ```
 pip install getsms
 pip install requests
