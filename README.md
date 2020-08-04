@@ -10,7 +10,7 @@ pip install requests
 from get_sms import Getsms
 message = Getsms(login=login, password=password, nickname=nickname)
 phone_numbers = ['998998158172', '998995451872']
-results = message.send_message(phone_numbers=phone_number, text='Hello World')
+results = message.send_message(phone_numbers=phone_numbers, text='Hello World')
 
 if 'error' in results:
     print(results)
