@@ -6,7 +6,7 @@ pip install getsms
 pip install requests
 ```
 # SEND MESSAGE
-```
+```python3
 from get_sms import Getsms
 message = Getsms(login=login, password=password, nickname=nickname)
 phone_numbers = ['998998158172', '998995451872']
@@ -29,7 +29,7 @@ user_id
 ```
 
 # CHECK STATUS
-```
+```python
 from get_sms import Getsms
 message = Getsms(login=login, password=password, nickname=nickname)
 request_ids = [1234567, 456789]
